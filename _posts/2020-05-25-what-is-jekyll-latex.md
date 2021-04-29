@@ -94,7 +94,7 @@ with $\bar{c}_{i} \neq c_{i}(i)$. Obviously $C(n) \neq x$ for all $n \in
 
 ## Text Formatting
 
-This sentence is **bold**. This sentence is *italic*. <small>Small</small> text is for fine print. Your copy can also be <sub>subscripted</sub> and <sup>superscripted</sup>, <ins>inserted</ins>, ~~deleted~~, or <mark>highlighted</mark>. You would use a [hyperlink](https://github.com/ryanmcdermott/jekyll-latex) to go to a new page. Keyboard input elements like <kbd>Cmd + Shift</kbd> are used to display textual user input.
+This sentence is **bold**. This sentence is *italic*. <small>Small</small> text is for fine print. Your copy can also be <sub>subscripted</sub> and <sup>superscripted</sup>, <ins>inserted</ins>, ~~deleted~~, or <mark>highlighted</mark>. You would use a [hyperlink](/#) to go to a new page. Keyboard input elements like <kbd>Cmd + Shift</kbd> are used to display textual user input.
 
 ```
 This sentence is **bold**. This sentence is *italic*.
