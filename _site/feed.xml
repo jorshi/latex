@@ -10,9 +10,11 @@
           <title>Latex Jekyll</title>
           <description>&lt;h2 class=&quot;Section&quot; id=&quot;1--introduction&quot;&gt;1   Introduction&lt;/h2&gt;
 
-&lt;p&gt;This has been my first attempt at Jekyll and with such it is likely not too great. I’d like to design this to work a bit more seamlessly aka without inline styling in the page.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quo praesentium adipisci commodi, iusto voluptatem quibusdam officia officiis?&lt;/p&gt;
 
-&lt;p&gt;I imagine this is possible but not too sure how to do it yet. I also want to add more Latex style designs such as designed lists and sub sections etc.&lt;/p&gt;
+&lt;p&gt;Voluptatem nisi reiciendis doloribus molestias perferendis! Laboriosam exercitationem cumque, corporis sunt eum aliquid non recusandae consequuntur saepe odio vero vel consequatur quis fuga expedita assumenda natus fugiat id atque, quibusdam cum tempora dolorem magnam! Voluptate delectus asperiores atque, sequi corrupti nesciunt ipsum ea ad eveniet dicta excepturi enim commodi officia dolore porro molestiae, impedit temporibus modi aperiam.&lt;/p&gt;
+
+&lt;p&gt;Ab possimus recusandae, molestias rem quia, ratione ducimus a odit qui libero, illum accusantium assumenda earum esse modi? Distinctio, soluta! Eligendi in libero consectetur suscipit?&lt;/p&gt;
 
 &lt;p class=&quot;sidenote&quot;&gt;Yay, sidenotes!. If you are on mobile, I will appear inline. If you are using a larger screen, the sidenote will appear to the right of the text.&lt;/p&gt;
 
@@ -29,24 +31,26 @@
     
       
         <item>
-          <title>Neural Audio AI</title>
+          <title>Voluptatem nisi reiciendis doloribus</title>
           <description>&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
 
-&lt;p&gt;We will be hosting a NeuroIPS 2021 shared task (competition) entitled
-“General Purpose Off-The-Shelf Audio Representations for Classification,
-Tagging, and Distance Tasks”. The &lt;a href=&quot;https://neuralaudio.ai/neuroips2021-shared-task.html&quot;&gt;shared task&lt;/a&gt;  is described
-here.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quo praesentium adipisci commodi, iusto voluptatem quibusdam officia officiis?&lt;/p&gt;
 
-&lt;p&gt;Please consider subscribing to our low-volume announcement &lt;a href=&quot;http://eepurl.com/hwrhrz&quot;&gt;mailing list&lt;/a&gt; and following us on &lt;a href=&quot;https://twitter.com/neuralaudio&quot;&gt;twitter&lt;/a&gt;. Or simply check this web-page for updates.&lt;/p&gt;
+&lt;p&gt;Voluptatem nisi reiciendis doloribus molestias perferendis! Laboriosam exercitationem cumque, corporis sunt eum aliquid non recusandae consequuntur saepe odio vero vel consequatur quis&lt;/p&gt;
+
+&lt;p&gt;Cfuga expedita assumenda natus fugiat id atque, quibusdam cum tempora dolorem magnam!  Voluptatem nisi &lt;a href=&quot;/#&quot;&gt;fugiat id atque&lt;/a&gt;  is described
+here.&lt;/p&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
-&lt;p&gt;Do you want to talk about audio ML? Please join our &lt;a href=&quot;https://discuss.neuralaudio.ai/&quot;&gt;forum&lt;/a&gt;. Discussion is open to all audio researchers, whether you are participating in the shared task or simply want to exchange knowledge on audio ML.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quo praesentium adipisci commodi, iusto voluptatem quibusdam officia officiis? Voluptatem nisi reiciendis doloribus molestias perferendis! Laboriosam exercitationem cumque, corporis sunt eum aliquid non recusandae consequuntur saepe odio vero vel consequatur quis fuga expedita assumenda natus fugiat id atque,&lt;/p&gt;
+
+&lt;p&gt;Quibusdam cum tempora dolorem magnam! Voluptate delectus asperiores atque, sequi corrupti nesciunt ipsum ea ad eveniet dicta excepturi enim commodi officia dolore porro molestiae, impedit temporibus modi aperiam. Ab possimus recusandae, molestias rem quia, ratione ducimus a odit qui libero, illum accusantium assumenda earum esse modi? Distinctio, soluta! Eligendi in libero consectetur suscipit?&lt;/p&gt;
 
 </description>
           <pubDate>2021-04-22T00:00:00-07:00</pubDate>
-          <link>http://localhost:4000/latex/posts/neural-audio-ai</link>
-          <guid isPermaLink="true">http://localhost:4000/latex/posts/neural-audio-ai</guid>
+          <link>http://localhost:4000/latex/posts/post-lorem</link>
+          <guid isPermaLink="true">http://localhost:4000/latex/posts/post-lorem</guid>
         </item>
       
     
@@ -146,7 +150,7 @@ with $\bar{c}_{i} \neq c_{i}(i)$. Obviously $C(n) \neq x$ for all $n \in
 
 &lt;h2 id=&quot;text-formatting&quot;&gt;Text Formatting&lt;/h2&gt;
 
-&lt;p&gt;This sentence is &lt;strong&gt;bold&lt;/strong&gt;. This sentence is &lt;em&gt;italic&lt;/em&gt;. &lt;small&gt;Small&lt;/small&gt; text is for fine print. Your copy can also be &lt;sub&gt;subscripted&lt;/sub&gt; and &lt;sup&gt;superscripted&lt;/sup&gt;, &lt;ins&gt;inserted&lt;/ins&gt;, &lt;del&gt;deleted&lt;/del&gt;, or &lt;mark&gt;highlighted&lt;/mark&gt;. You would use a &lt;a href=&quot;https://github.com/ryanmcdermott/jekyll-latex&quot;&gt;hyperlink&lt;/a&gt; to go to a new page. Keyboard input elements like &lt;kbd&gt;Cmd + Shift&lt;/kbd&gt; are used to display textual user input.&lt;/p&gt;
+&lt;p&gt;This sentence is &lt;strong&gt;bold&lt;/strong&gt;. This sentence is &lt;em&gt;italic&lt;/em&gt;. &lt;small&gt;Small&lt;/small&gt; text is for fine print. Your copy can also be &lt;sub&gt;subscripted&lt;/sub&gt; and &lt;sup&gt;superscripted&lt;/sup&gt;, &lt;ins&gt;inserted&lt;/ins&gt;, &lt;del&gt;deleted&lt;/del&gt;, or &lt;mark&gt;highlighted&lt;/mark&gt;. You would use a &lt;a href=&quot;/#&quot;&gt;hyperlink&lt;/a&gt; to go to a new page. Keyboard input elements like &lt;kbd&gt;Cmd + Shift&lt;/kbd&gt; are used to display textual user input.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This sentence is **bold**. This sentence is *italic*.
 &amp;lt;small&amp;gt;Small&amp;lt;/small&amp;gt; text is for fine print. Your
