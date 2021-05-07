@@ -39,11 +39,23 @@
 </head>
 
 <body>
-	<aside class="logo">
-    <span class="logo-prompt">Back to Home</span>
+	<header class="page_header">
+    <a href="/latex/" class="logo">Jekyll Latex</a>
+    <nav class="hidden_small" id="nav_top"><a href="/latex//">Home</a><a href="/latex/#">HEAR 2021</a><a href="/latex/#">Discuss</a><a href="/latex/#">News</a></nav><div class="hamburger" id="hamburger" role="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner">
+    </span>
+  </span>
+</div>
 
-</aside>
-
+<script>
+  const toggler = document.getElementById("hamburger");
+  const nav = document.getElementById("nav_top");
+  hamburger.onclick = () => {
+    toggler.classList.toggle("opened")
+    nav.classList.toggle("hidden_small")
+  };
+</script></header>
 
 	<main>
 		<article>
@@ -97,12 +109,6 @@
     
 </div>
 	</main>
-
-	<div class="footer">
-    <span class="block">&copy;
-        2021
-        John Doe</span>
-</div>
 
 </body>
 

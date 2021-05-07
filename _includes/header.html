@@ -1,17 +1,15 @@
-<aside class="logo">
-    {% if page.url == '/index.html' or page.url == '/' %}
-        {% assign link = '/about' %}
-        {% assign prompt = 'About the Author'
-	%}
-    {% else %}
-        {% assign link = '/' %}
-        {% assign prompt = 'Back to Home' %}
-    {% endif %}
-{%- if page.author.image -%}
-<a href="{{ link | prepend: site.baseurl }}">
-    <img class="gravatar" src="{{site.url}}{{site.baseurl}}{{page.author.image}}">
-</a>
-{%- endif -%}
-    <span class="logo-prompt">{{ prompt }}</span>
-
-</aside>
+<header class="page_header">
+    <a href="{{site.baseurl}}/" class="logo">
+      {%- if site.logo -%}
+        <img src="/assets/images/logo.png" alt="site logo">
+        {%- else -%}
+        {{site.title}}
+        {%- endif -%}
+    </a>
+    <nav class="hidden_small" id="nav_top">
+        {%- for i in site.data.navigation -%}
+        <a href="{{site.baseurl}}/{{i.link}}">{{i.name}}</a>
+        {%- endfor -%}
+    </nav>
+    {%- include hamburger.html -%}
+</header>
