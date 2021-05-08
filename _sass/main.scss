@@ -17,7 +17,7 @@
 	p,
 	.BodyText {
 		font-family: CMR;
-		font-size: 23px;
+		font-size: 20px;
 		text-align: justify;
 		margin-top: 13px;
 		margin-bottom: 45px;
@@ -26,7 +26,7 @@
 	.Section,
 	h2 {
 		font-family: CMB;
-		font-size: 33px;
+		font-size: 28px;
 		text-align: Left;
 		margin-top: 13px;
 		margin-bottom: 20px;
@@ -36,54 +36,77 @@
 		cursor: pointer;
 		text-decoration: underline;
 	}
-.LatexTitle {
-	font-family: CMR;
-	font-size: 40px;
-	padding-top: 5vh;
-	text-align: center;
-	margin-bottom: 20px;
-}
+	.LatexTitle {
+		font-family: CMR;
+		font-size: 36px;
+		padding-top: 5vh;
+		text-align: center;
+		margin-bottom: 20px;
+	}
 
-.LatexName {
-	font-family: CMR;
-	font-size: 27px;
-	text-align: center;
-	margin-bottom: 13px;
-}
-.LatexDate {
-	font-family: CMR;
-	font-size: 27px;
-	text-align: center;
-	margin-top: 13px;
-	margin-bottom: 45px;
-}
+	.LatexName {
+		font-family: CMR;
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 13px;
+	}
+	.LatexDate {
+		font-family: CMR;
+		font-size: 23px;
+		text-align: center;
+		margin-top: 13px;
+		margin-bottom: 45px;
+	}
 
-.LatexAbstract {
-	font-family: CMB;
-	font-weight: bold;
-	font-size: 25px;
-	text-align: center;
-	margin-bottom: 10px;
-}
+	.LatexAbstract {
+		font-family: CMB;
+		font-weight: bold;
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
 
-.LatexAbstractText {
-	margin-top: 10px;
-	font-family: CMR;
-	font-size: 21px;
-	text-align: justify;
-	text-indent: 20px;
-}
-.AbstractMargins {
-    margin-left: auto;
+	.LatexAbstractText {
+		margin-top: 10px;
+		font-family: CMR;
+		font-size: 18px;
+		text-align: justify;
+		text-indent: 20px;
+	}
+	.AbstractMargins {
+		margin-left: auto;
 		margin-right: auto;
-    width: 88%;
-    padding-bottom: 15px;
-}
+		width: 88%;
+		padding-bottom: 15px;
+	}
 	@media (min-width: 1024px) {
 		& {
 			margin-left: auto;
 			margin-right: auto;
 			width: 58vw;
+		}
+		p,
+		.BodyText {
+			font-size: 23px;
+		}
+		.Section,
+		h2 {
+			font-size: 33px;
+		}
+		.LatexTitle {
+			font-size: 40px;
+		}
+		.LatexName {
+			font-size: 27px;
+		}
+		.LatexDate {
+			font-size: 27px;
+		}
+		.LatexAbstract {
+			font-size: 25px;
+		}
+		.LatexAbstractText {
+			font-size: 21px;
 		}
 	}
 }
@@ -126,7 +149,7 @@ body {
 	min-height: 100vh;
 	overflow-x: hidden;
 	margin: 0 auto;
-	//padding: 2rem 1.25rem;
+	padding: 2rem 1.25rem;
 
 	counter-reset: theorem;
 	counter-reset: definition;
