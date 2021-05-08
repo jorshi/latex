@@ -42,8 +42,3 @@ defaults:
       type:         "pages"
     values:
       layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"

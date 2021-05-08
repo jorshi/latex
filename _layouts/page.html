@@ -1,12 +1,28 @@
 ---
 layout: default
 ---
-
 <article>
-    <h1 class="title">{{ page.title }}</h1>
+    <div class="Margins">
+        <div class="center">
+            <h1 class="LatexTitle">{{ page.title }}</h1>
+            <p class="LatexName">{{ page.author }}</p>
+            <p class="LatexDate">
+                {{ page.date | date: '%B %-d, %Y' }}
+            </p>
+            {%- if page.abstract -%}
+            <div class="AbstractMargins">
+                <h3 class="LatexAbstract">
+                    Abstract
+                </h3>
+                <p class="LatexAbstractText">{{page.abstract}}</p>
+            </div>
+            {%- endif -%}
 
-    <div class="divider"></div>
+        </div>
 
-    {{ content }}
+        <div class="divider"></div>
 
+        {{ content }}
+
+    </div>
 </article>

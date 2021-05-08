@@ -13,19 +13,17 @@
     justify-self: start;
     text-align-last: left;
     margin: 0;
-    padding: 20px;
   }
 }
 #nav_top {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
 }
 .hamburger {
   position: absolute;
-  top: 50px;
-  right: 40px;
+  right: 15px;
   display: inline-block;
   transition-property: opacity, filter;
   transition-duration: 0.5s;
