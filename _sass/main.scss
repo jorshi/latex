@@ -20,7 +20,7 @@
 		font-size: 20px;
 		text-align: justify;
 		margin-top: 13px;
-		margin-bottom: 45px;
+		margin-bottom: 13px;
 		line-height: 125%;
 	}
 	li {
@@ -31,7 +31,7 @@
 		font-family: CMB;
 		font-size: 28px;
 		text-align: Left;
-		margin-top: 13px;
+		margin-top: 45px;
 		margin-bottom: 20px;
 	}
 	a:-webkit-any-link {
@@ -286,6 +286,7 @@ article {
 			/* display: block; */
 			display: list-item;
 			line-height: normal;
+			margin-bottom: 15px;
 		}
 		li:before {
 			/* content: counters(item, ".") " ";
