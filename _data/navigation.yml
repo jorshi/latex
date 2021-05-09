@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: HEAR 2021 
-  link: "#"
+  link: "/hear"
 - name: Discuss
-  link: "#"
+  link: "https://neural.com/discuss"
 - name: News
   link: "#"

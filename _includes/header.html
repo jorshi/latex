@@ -8,7 +8,11 @@
     </a>
     <nav class="hidden_small" id="nav_top">
         {%- for i in site.data.navigation -%}
-        <a href="{{site.baseurl}}/{{i.link}}">{{i.name}}</a>
+        {%- if i.link contains "://" -%}
+            <a href="{{i.link}}">{{i.name}}</a>
+            {%- else -%}
+            <a href="{{site.baseurl}}/{{i.link}}">{{i.name}}</a>
+            {%- endif -%}
         {%- endfor -%}
     </nav>
     {%- include hamburger.html -%}
