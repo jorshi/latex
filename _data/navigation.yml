@@ -4,5 +4,5 @@
   link: "/hear"
 - name: Discuss
   link: "https://neural.com/discuss"
-- name: News
-  link: "#"
+- name: About
+  link: "/about"

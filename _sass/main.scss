@@ -23,6 +23,9 @@
 		margin-bottom: 45px;
 		line-height: 125%;
 	}
+	li {
+		font-size: 20px;
+	}
 	.Section,
 	h2 {
 		font-family: CMB;
@@ -85,6 +88,9 @@
 		}
 		p,
 		.BodyText {
+			font-size: 23px;
+		}
+		li {
 			font-size: 23px;
 		}
 		.Section,
@@ -274,13 +280,15 @@ article {
 	ul {
 		counter-reset: item;
 		padding-left: 2rem;
+		list-style-type: disc; //circle;
 
 		li {
-			display: block;
+			/* display: block; */
+			display: list-item;
 		}
 		li:before {
-			content: counters(item, ".") " ";
-			counter-increment: item;
+			/* content: counters(item, ".") " ";
+			counter-increment: item; */
 			padding-right: 0.85rem;
 		}
 	}
