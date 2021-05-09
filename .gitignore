@@ -3,3 +3,6 @@
 .jekyll-cache
 .sass-cache
 /_site
+
+# PyCharm
+.idea/*
