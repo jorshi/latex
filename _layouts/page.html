@@ -4,7 +4,7 @@ layout: default
 <article>
     <div class="Margins">
         <div class="center">
-            <h1 class="LatexTitle">{{ page.title }}</h1>
+            <h1 class="LatexTitle" style="padding-top: {{site.data.sizes.title-top-margin}}; padding-bottom: {{site.data.sizes.title-bottom-margin}}">{{ page.title }}</h1>
             <p class="LatexName">{{ page.author }}</p>
             <p class="LatexDate">
                 {{ page.date | date: '%B %-d, %Y' }}
