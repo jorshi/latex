@@ -285,6 +285,7 @@ article {
 		li {
 			/* display: block; */
 			display: list-item;
+			line-height: normal;
 		}
 		li:before {
 			/* content: counters(item, ".") " ";
