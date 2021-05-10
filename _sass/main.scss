@@ -31,7 +31,7 @@
 		font-family: CMB;
 		font-size: 28px;
 		text-align: Left;
-		margin-top: 13px;
+		margin-top: 45px;
 		margin-bottom: 20px;
 	}
 	a:-webkit-any-link {
@@ -225,7 +225,7 @@ code,
 pre,
 kbd {
 	font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	font-size: 85%;
+	font-size: 80%;
 }
 pre {
 	padding: 1rem 1.4rem;
@@ -235,7 +235,7 @@ pre {
 	background: hsl(210, 28%, 93%);
 }
 pre code {
-	font-size: 95%;
+	font-size: 120%;
 	position: relative;
 }
 kbd {
@@ -286,6 +286,7 @@ article {
 			/* display: block; */
 			display: list-item;
 			line-height: normal;
+			margin-bottom: 15px;
 		}
 		li:before {
 			/* content: counters(item, ".") " ";
