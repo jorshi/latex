@@ -5,10 +5,10 @@
 	{% include head.html %}
 </head>
 
-<body style="padding: {{site.data.sizes.body-padding}};">
+<body>
 	{% include header.html %}
 
-	<main>
+	<main style="padding-top: 75px">
 		{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
 	</main>
 

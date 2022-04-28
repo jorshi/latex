@@ -1,4 +1,5 @@
-<header class="page_header"  style="padding: {{site.data.sizes.header-padding}} 0; position: relative">
+<header>
+  <div id="navbar" class="navbar-shadow page_header">
     <a href="{{site.baseurl}}/" class="logo_n">
       {%- if site.logo -%}
         <img src="{{site.logo}}" alt="site logo">
@@ -6,7 +7,7 @@
         {{site.title}}
         {%- endif -%}
     </a>
-    <nav class="hidden_small" id="nav_top">
+    <div id="nav_top" class="hidden_small navbar-right">
         {%- for i in site.data.navigation -%}
         {%- if i.link contains "://" -%}
             <a href="{{i.link}}">{{i.name}}</a>
@@ -14,6 +15,30 @@
             <a href="{{site.baseurl}}/{{i.link}}">{{i.name}}</a>
             {%- endif -%}
         {%- endfor -%}
-    </nav>
+    </div>
     {%- include hamburger.html -%}
+  </div>
 </header>
+
+<script>
+  /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    // Don't do slide if the hamburger is open
+    const toggler = document.getElementById("hamburger");
+    if (toggler.classList.contains("opened")) {
+        document.getElementById("navbar").style.top = "0";
+        prevScrollpos = currentScrollPos;
+        return;
+    }
+
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-60px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+</script>
