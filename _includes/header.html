@@ -22,23 +22,25 @@
 
 <script>
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
 
-    // Don't do slide if the hamburger is open
-    const toggler = document.getElementById("hamburger");
-    if (toggler.classList.contains("opened")) {
+  let prevScrollpos = window.pageYOffset;
+  window.addEventListener("scroll", function() {
+      const currentScrollPos = window.pageYOffset;
+
+      // Don't do slide if the hamburger is open
+      const toggler = document.getElementById("hamburger");
+      if (toggler.classList.contains("opened") || currentScrollPos === 0) {
         document.getElementById("navbar").style.top = "0";
         prevScrollpos = currentScrollPos;
         return;
-    }
+      }
 
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-60px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-60px";
+      }
+
+      prevScrollpos = currentScrollPos;
+  });
 </script>
